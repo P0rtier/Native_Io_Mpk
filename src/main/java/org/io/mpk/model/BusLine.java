@@ -42,4 +42,9 @@ public class BusLine {
     public void setMaxDriverAmount(Integer maxDriverAmount) {
         this.maxDriverAmount = maxDriverAmount;
     }
+
+    public void addDriverToDriverList(Driver driver){
+        if(driver != null)
+            driverList.add(driver);
+    }
 }
