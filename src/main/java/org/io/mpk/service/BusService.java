@@ -35,14 +35,4 @@ public class BusService {
                 .findFirst()
                 .orElseThrow(NoSuchElementException::new);
     }
-
-    public void assignDriverToBus(Driver driver, Bus bus){
-        busDB.stream()
-                .filter(t -> t.equals(bus))
-                .findAny()
-                .orElseThrow(NoSuchElementException::new)
-                .setDriver(driver);
-    }
-
-
 }

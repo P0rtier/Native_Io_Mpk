@@ -1,8 +1,10 @@
 package org.io.mpk.controller;
 
+import org.io.mpk.model.Allocation;
 import org.io.mpk.model.Bus;
 import org.io.mpk.model.BusLine;
 import org.io.mpk.model.Driver;
+import org.io.mpk.service.AllocationService;
 import org.io.mpk.service.BusLineService;
 import org.io.mpk.service.BusService;
 import org.io.mpk.service.EmployeeService;
@@ -13,10 +15,13 @@ public class AdminController {
     private BusService busService;
     private BusLineService busLineService;
 
-    public AdminController(EmployeeService employeeService, BusService busService, BusLineService busLineService) {
+    private AllocationService allocationService;
+
+    public AdminController(EmployeeService employeeService, BusService busService, BusLineService busLineService, AllocationService allocationService) {
         this.employeeService = employeeService;
         this.busService = busService;
         this.busLineService = busLineService;
+        this.allocationService = allocationService;
     }
 
     public Driver getDriverById(Long driverId){
@@ -51,14 +56,18 @@ public class AdminController {
         return busLineService.getBusLineByLineNumber(lineNumber);
     }
 
-    public BusLine checkBusLineOccupancy(BusLine busLine){
-        return busLine.getDriverList().size() < busLine.getMaxDriverAmount() ?
-                busLine : null;
+    public boolean checkIsBusLineOccupied(BusLine busLine){
+        return allocationService.getBusLineOccupancy(busLine.getLineNumber())
+                >= busLine.getMaxDriverAmount();
     }
 
-    public void assignDriver(Driver driver, Bus bus, BusLine busLine){
-        busService.assignDriverToBus(driver,bus);
-        busLineService.assignDriverToBusLine(driver,busLine);
+    public void assignDriver(String driverName, String busRegistrationPlate, Long busLineNumber){
+        Driver driver = employeeService.getDriverByName(driverName);
+        Bus bus = busService.getBusByRegistrationPlate(busRegistrationPlate);
+        BusLine busLine = busLineService.getBusLineByLineNumber(busLineNumber);
+        if(driver != null && bus != null && busLine != null){
+            allocationService.saveAllocation(new Allocation(driver,busLine,bus));
+        }
     }
 
     public void modifyDriver(Driver driver){

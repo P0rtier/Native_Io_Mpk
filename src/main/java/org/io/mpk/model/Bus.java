@@ -9,18 +9,16 @@ public class Bus {
     private Long maxCarryWeight;
     private String registrationPlate;
     private String vinNumber;
-    private Driver driver;
 
     public Bus() {
     }
 
-    public Bus(Long id, LocalDateTime technicalReview, Long maxCarryWeight, String registrationPlate, String vinNumber, Driver driver) {
+    public Bus(Long id, LocalDateTime technicalReview, Long maxCarryWeight, String registrationPlate, String vinNumber) {
         this.id = id;
         this.technicalReview = technicalReview;
         this.maxCarryWeight = maxCarryWeight;
         this.registrationPlate = registrationPlate;
         this.vinNumber = vinNumber;
-        this.driver = driver;
     }
 
     public Long getId() {
@@ -61,13 +59,5 @@ public class Bus {
 
     public void setVinNumber(String vinNumber) {
         this.vinNumber = vinNumber;
-    }
-
-    public Driver getDriver() {
-        return driver;
-    }
-
-    public void setDriver(Driver driver) {
-        this.driver = driver;
     }
 }

@@ -20,12 +20,4 @@ public class BusLineService {
                 .findFirst()
                 .orElseThrow(NoSuchElementException::new);
     }
-
-    public void assignDriverToBusLine(Driver driver, BusLine busLine){
-        busLineDB.stream()
-                .filter(t -> t.equals(busLine))
-                .findAny()
-                .orElseThrow(NoSuchElementException::new)
-                .addDriverToDriverList(driver);
-    }
 }
