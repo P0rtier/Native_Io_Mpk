@@ -9,14 +9,16 @@ import org.io.mpk.service.BusTimetableService;
 
 public class BusTimetableController {
 
-    private BusStopService busStopService;
-    private BusLineService busLineService;
+    private final BusStopService busStopService;
+    private final BusLineService busLineService;
 
-    private BusTimetableService busTimetableService;
+    private final BusTimetableService busTimetableService;
 
-    public BusTimetableController(BusStopService busStopService, BusLineService busLineService) {
+    public BusTimetableController(BusStopService busStopService, BusLineService busLineService, BusTimetableService busTimetableService) {
         this.busStopService = busStopService;
         this.busLineService = busLineService;
+        this.busTimetableService = busTimetableService;
+
     }
 
     public BusTimetable getBusTimetableByBusLine(Long busLineNumber){

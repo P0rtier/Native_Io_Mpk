@@ -11,11 +11,10 @@ import org.io.mpk.service.EmployeeService;
 
 public class AdminController {
 
-    private EmployeeService employeeService;
-    private BusService busService;
-    private BusLineService busLineService;
-
-    private AllocationService allocationService;
+    private final EmployeeService employeeService;
+    private final BusService busService;
+    private final BusLineService busLineService;
+    private final AllocationService allocationService;
 
     public AdminController(EmployeeService employeeService, BusService busService, BusLineService busLineService, AllocationService allocationService) {
         this.employeeService = employeeService;
