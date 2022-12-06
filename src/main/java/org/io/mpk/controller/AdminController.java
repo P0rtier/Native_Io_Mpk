@@ -64,7 +64,8 @@ public class AdminController {
         Driver driver = employeeService.getDriverByName(driverName);
         Bus bus = busService.getBusByRegistrationPlate(busRegistrationPlate);
         BusLine busLine = busLineService.getBusLineByLineNumber(busLineNumber);
-        if(driver != null && bus != null && busLine != null){
+        if( (driver != null && bus != null && busLine != null)
+                && !checkIsBusLineOccupied(busLine)){
             allocationService.saveAllocation(new Allocation(driver,busLine,bus));
         }
     }

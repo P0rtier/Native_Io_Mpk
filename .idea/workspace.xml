@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="def12250-704c-46da-a4a4-6dcd3c02cb4a" name="Changes" comment="[IO-1]: Further Impl2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/model/Allocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/AllocationService.java" afterDir="false" />
+    <list default="true" id="def12250-704c-46da-a4a4-6dcd3c02cb4a" name="Changes" comment="[IO-1]: Minor changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/io/mpk/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/io/mpk/model/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/model/Bus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/io/mpk/model/BusLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/model/BusLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/BusLineService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/BusLineService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/BusService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/BusService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +91,7 @@
       <workItem from="1670243520524" duration="312000" />
       <workItem from="1670243877166" duration="4897000" />
       <workItem from="1670267766640" duration="2541000" />
-      <workItem from="1670353149519" duration="5125000" />
+      <workItem from="1670353149519" duration="6243000" />
     </task>
     <task id="LOCAL-00001" summary="[IO-1]:Initial commit">
       <created>1670200449306</created>
@@ -120,7 +114,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670355953695</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[IO-1]: Further Impl3">
+      <created>1670358341762</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670358341763</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[IO-1]: Minor changes">
+      <created>1670358517144</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670358517144</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +149,8 @@
     <MESSAGE value="[IO-1]:Initial commit" />
     <MESSAGE value="[IO-1]: Further Impl" />
     <MESSAGE value="[IO-1]: Further Impl2" />
-    <option name="LAST_COMMIT_MESSAGE" value="[IO-1]: Further Impl2" />
+    <MESSAGE value="[IO-1]: Further Impl3" />
+    <MESSAGE value="[IO-1]: Minor changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="[IO-1]: Minor changes" />
   </component>
 </project>
