@@ -15,9 +15,9 @@ public class BusTimetableService {
     public BusTimetableService() {
     }
 
-    public BusTimetable getBusTimetableByBusLine(Long busLineNUmber){
+    public BusTimetable getBusTimetableByBusLine(Long busLineNumber){
         return busTimetableDB.stream()
-                .filter(t -> t.getBusLine().getLineNumber().equals(busLineNUmber))
+                .filter(t -> t.getBusLine().getLineNumber().equals(busLineNumber))
                 .findFirst()
                 .orElseThrow(NoSuchElementException::new);
     }
