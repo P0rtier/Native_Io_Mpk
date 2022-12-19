@@ -13,6 +13,13 @@ public class BusStopService {
     public BusStopService() {
     }
 
+    /**
+     * Konstruktor tylko w celach testowych
+     */
+    public BusStopService(List<BusStop> busStopDB) {
+        this.busStopDB = busStopDB;
+    }
+
     public BusStop getBusStopById(Long busStopId){
         return busStopDB.stream()
                 .filter(t -> t.getId().equals(busStopId))

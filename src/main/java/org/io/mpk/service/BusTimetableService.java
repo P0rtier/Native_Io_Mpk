@@ -15,6 +15,13 @@ public class BusTimetableService {
     public BusTimetableService() {
     }
 
+    /**
+     * Konstruktor tylko w celach testowych
+     */
+    public BusTimetableService(List<BusTimetable> busTimetableDB) {
+        this.busTimetableDB = busTimetableDB;
+    }
+
     public BusTimetable getBusTimetableByBusLine(Long busLineNUmber){
         return busTimetableDB.stream()
                 .filter(t -> t.getBusLine().getLineNumber().equals(busLineNUmber))

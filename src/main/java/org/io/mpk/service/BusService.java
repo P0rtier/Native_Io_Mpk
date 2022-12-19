@@ -15,6 +15,13 @@ public class BusService {
     public BusService() {
     }
 
+    /**
+     * Konstruktor tylko w celach testowych
+     */
+    public BusService(List<Bus> busDB) {
+        this.busDB = busDB;
+    }
+
     public Bus getBusById(Long busId){
         return busDB.stream()
                 .filter(t -> t.getId().equals(busId))

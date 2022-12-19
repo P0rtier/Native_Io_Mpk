@@ -14,6 +14,13 @@ public class EmployeeService {
     public EmployeeService() {
     }
 
+    /**
+     * Konstruktor tylko w celach testowych
+     */
+    public EmployeeService(List<Employee> employeeDB) {
+        this.employeeDB = employeeDB;
+    }
+
     public Driver getDriverById(Long driverId){
         return (Driver) employeeDB.stream()
                 .filter( t -> t instanceof Driver && t.getId().equals(driverId))
