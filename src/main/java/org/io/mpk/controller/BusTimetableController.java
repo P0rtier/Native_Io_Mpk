@@ -23,16 +23,23 @@ public class BusTimetableController {
 
     public BusTimetable getBusTimetableByBusLine(Long busLineNumber){
         BusLine busLineSearched = busLineService.getBusLineByLineNumber(busLineNumber);
-        return busTimetableService.getBusTimetableByBusLine(busLineSearched.getLineNumber());
+        if (busLineSearched == null)
+            return null;
+        Long busLineFoundId = busLineSearched.getLineNumber();
+        return busTimetableService.getBusTimetableByBusLine(busLineFoundId);
     }
 
     public BusTimetable getBusTimetableByBusStopId(Long busStopId){
         BusStop busStopSearched = busStopService.getBusStopById(busStopId);
+        if (busStopSearched == null)
+            return null;
         return busTimetableService.getBusTimetableByBusStop(busStopSearched.getId());
     }
 
     public BusTimetable getBusTimetableByBusStopName(String busStopName){
         BusStop busStopSearched = busStopService.getBusStopByName(busStopName);
+        if (busStopSearched == null)
+            return null;
         return busTimetableService.getBusTimetableByBusStop(busStopSearched.getId());
     }
 

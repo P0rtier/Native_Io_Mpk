@@ -22,6 +22,7 @@ public class BusTimetableService {
         this.busTimetableDB = busTimetableDB;
     }
 
+
     public BusTimetable getBusTimetableByBusLine(Long busLineNUmber){
         return busTimetableDB.stream()
                 .filter(t -> t.getBusLine().getLineNumber().equals(busLineNUmber))

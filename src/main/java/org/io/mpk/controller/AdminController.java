@@ -9,6 +9,8 @@ import org.io.mpk.service.BusLineService;
 import org.io.mpk.service.BusService;
 import org.io.mpk.service.EmployeeService;
 
+import java.util.NoSuchElementException;
+
 public class AdminController {
 
     private final EmployeeService employeeService;
@@ -56,8 +58,18 @@ public class AdminController {
     }
 
     public boolean checkIsBusLineOccupied(BusLine busLine){
-        return allocationService.getBusLineOccupancy(busLine.getLineNumber())
-                >= busLine.getMaxDriverAmount();
+        if (busLine == null) {
+            throw new IllegalArgumentException();
+        }
+        Long busLineNumber = busLine.getLineNumber();
+        Long actualAmount = allocationService.getBusLineOccupancy(busLineNumber);
+        Integer maxAmount = busLine.getMaxDriverAmount();
+
+        if (actualAmount >= maxAmount) {
+            return true;
+        }
+        return false;
+
     }
 
     public void assignDriver(String driverName, String busRegistrationPlate, Long busLineNumber){
@@ -66,7 +78,8 @@ public class AdminController {
         BusLine busLine = busLineService.getBusLineByLineNumber(busLineNumber);
         if( (driver != null && bus != null && busLine != null)
                 && !checkIsBusLineOccupied(busLine)){
-            allocationService.saveAllocation(new Allocation(driver,busLine,bus));
+            Allocation allocation = new Allocation(driver,busLine,bus);
+            allocationService.saveAllocation(allocation);
         }
     }
 
