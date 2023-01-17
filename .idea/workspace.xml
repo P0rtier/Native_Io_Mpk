@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="def12250-704c-46da-a4a4-6dcd3c02cb4a" name="Changes" comment="[IO-1]: Minor changes">
+    <list default="true" id="0f1720e8-fe54-4c23-8592-03135b0d42ca" name="Changes" comment="[IO-1]: Minor changes">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/io/mpk/service/BusLineServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/io/mpk/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/io/mpk/controller/BusTimetableController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/controller/BusTimetableController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/BusTimetableService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/BusTimetableService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/io/mpk/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/controller/MainController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -30,6 +31,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -40,14 +44,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "last_opened_file_path": "C:/Users/Patryk/.m2/repository/junit/junit/4.12",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.tools"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.io.mpk.service" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.io.mpk.controller.Main" />
+  <component name="RunManager" selected="JUnit.BusLineServiceTest">
+    <configuration name="MainController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.io.mpk.controller.MainController" />
       <module name="Native_Io_Mpk" />
       <extension name="coverage">
         <pattern>
@@ -59,30 +85,82 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.io.mpk.view.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.io.mpk.view.Main" />
+    <configuration name="BusLineServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Native_Io_Mpk" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.io.mpk.view.*" />
+          <option name="PATTERN" value="org.io.mpk.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.io.mpk.service" />
+      <option name="MAIN_CLASS_NAME" value="org.io.mpk.service.BusLineServiceTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BusLineServiceTest.getBusLineByLineNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Native_Io_Mpk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.io.mpk.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.io.mpk.service" />
+      <option name="MAIN_CLASS_NAME" value="org.io.mpk.service.BusLineServiceTest" />
+      <option name="METHOD_NAME" value="getBusLineByLineNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mainTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Native_Io_Mpk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java.test" />
+      <option name="MAIN_CLASS_NAME" value="java.test.mainTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Native_Io_Mpk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.mainTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.org.io.mpk.view.Main" />
-        <item itemvalue="Application.org.io.mpk.view.Main" />
+        <item itemvalue="JUnit.BusLineServiceTest" />
+        <item itemvalue="JUnit.BusLineServiceTest.getBusLineByLineNumber" />
+        <item itemvalue="JUnit.mainTest (1)" />
+        <item itemvalue="Application.MainController" />
+        <item itemvalue="JUnit.mainTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="def12250-704c-46da-a4a4-6dcd3c02cb4a" name="Changes" comment="" />
+      <changelist id="0f1720e8-fe54-4c23-8592-03135b0d42ca" name="Changes" comment="[IO-1]: Minor changes" />
       <created>1670197002276</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -92,6 +170,8 @@
       <workItem from="1670243877166" duration="4897000" />
       <workItem from="1670267766640" duration="2541000" />
       <workItem from="1670353149519" duration="6243000" />
+      <workItem from="1673987817131" duration="4608000" />
+      <workItem from="1673992516428" duration="316000" />
     </task>
     <task id="LOCAL-00001" summary="[IO-1]:Initial commit">
       <created>1670200449306</created>
@@ -144,7 +224,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[IO-1]:Initial commit" />

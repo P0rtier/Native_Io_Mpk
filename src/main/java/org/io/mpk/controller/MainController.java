@@ -6,6 +6,7 @@ import org.io.mpk.service.*;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
+import java.util.ArrayList;
 import java.util.List;
 
 public class MainController {
@@ -22,8 +23,10 @@ public class MainController {
                 285L, "TestLicense");
         BusLine busLineTest = new BusLine(1L, 30);
 
+        List<Employee> testList = new ArrayList<>();
+        testList.add(testDriver);
         //Services
-        EmployeeService emplService = new EmployeeService(List.of(testDriver));
+        EmployeeService emplService = new EmployeeService(testList);
         BusService busService = new BusService(List.of(testBus));
         BusLineService busLineService = new BusLineService(List.of(busLineTest));
         AllocationService allocationServiceTest = new AllocationService();
@@ -54,5 +57,7 @@ public class MainController {
 
         //Test przypadku uzycia - przeglad rozkladu jazdy
         busTimetableControllerTest.getBusTimetableByBusLine(1L);
+
+        emplService.modifyDriver(testDriver);
     }
 }
