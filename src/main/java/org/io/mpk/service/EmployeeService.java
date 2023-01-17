@@ -14,6 +14,10 @@ public class EmployeeService {
     public EmployeeService() {
     }
 
+    public EmployeeService(List<Employee> employeeDB) {
+        this.employeeDB = employeeDB;
+    }
+
     public Driver getDriverById(Long driverId){
         return (Driver) employeeDB.stream()
                 .filter( t -> t instanceof Driver && t.getId().equals(driverId))

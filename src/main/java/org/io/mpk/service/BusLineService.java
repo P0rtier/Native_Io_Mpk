@@ -14,6 +14,10 @@ public class BusLineService {
     public BusLineService() {
     }
 
+    public BusLineService(List<BusLine> busLineDB) {
+        this.busLineDB = busLineDB;
+    }
+
     public BusLine getBusLineByLineNumber(Long lineNumber){
         return busLineDB.stream()
                 .filter(t -> t.getLineNumber().equals(lineNumber))

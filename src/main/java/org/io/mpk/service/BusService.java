@@ -15,6 +15,10 @@ public class BusService {
     public BusService() {
     }
 
+    public BusService(List<Bus> busDB) {
+        this.busDB = busDB;
+    }
+
     public Bus getBusById(Long busId){
         return busDB.stream()
                 .filter(t -> t.getId().equals(busId))

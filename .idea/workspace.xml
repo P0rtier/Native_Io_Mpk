@@ -6,9 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="def12250-704c-46da-a4a4-6dcd3c02cb4a" name="Changes" comment="[IO-1]: Minor changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/io/mpk/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/io/mpk/controller/BusTimetableController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/controller/BusTimetableController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/BusLineService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/BusLineService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/BusService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/BusService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/BusStopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/BusStopService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/BusTimetableService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/BusTimetableService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,11 +46,32 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/org/io/mpk/controller" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\IdeaProjects\Native_Io_Mpk\src\main\java\org\io\mpk\controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MainController">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.io.mpk.controller.Main" />
+      <module name="Native_Io_Mpk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.io.mpk.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.io.mpk.controller.MainController" />
       <module name="Native_Io_Mpk" />
       <extension name="coverage">
         <pattern>
@@ -74,6 +98,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainController" />
         <item itemvalue="Application.org.io.mpk.view.Main" />
         <item itemvalue="Application.org.io.mpk.view.Main" />
       </list>

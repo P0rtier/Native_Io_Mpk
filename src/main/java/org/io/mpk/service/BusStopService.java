@@ -13,6 +13,10 @@ public class BusStopService {
     public BusStopService() {
     }
 
+    public BusStopService(List<BusStop> busStopDB) {
+        this.busStopDB = busStopDB;
+    }
+
     public BusStop getBusStopById(Long busStopId){
         return busStopDB.stream()
                 .filter(t -> t.getId().equals(busStopId))

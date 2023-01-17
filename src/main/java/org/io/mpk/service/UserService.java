@@ -15,6 +15,10 @@ public class UserService {
     public UserService() {
     }
 
+    public UserService(List<User> userList) {
+        this.userList = userList;
+    }
+
     public Long autoIncrementIdx(){
         if(userList.isEmpty())
             return 1L;
