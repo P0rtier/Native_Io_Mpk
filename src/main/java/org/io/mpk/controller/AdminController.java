@@ -72,7 +72,7 @@ public class AdminController {
 
     }
 
-    public void assignDriver(String driverName, String busRegistrationPlate, Long busLineNumber){
+    public boolean assignDriver(String driverName, String busRegistrationPlate, Long busLineNumber){
         Driver driver = employeeService.getDriverByName(driverName);
         Bus bus = busService.getBusByRegistrationPlate(busRegistrationPlate);
         BusLine busLine = busLineService.getBusLineByLineNumber(busLineNumber);
@@ -80,7 +80,18 @@ public class AdminController {
                 && !checkIsBusLineOccupied(busLine)){
             Allocation allocation = new Allocation(driver,busLine,bus);
             allocationService.saveAllocation(allocation);
+            return true;
+        }else{
+            throw new IllegalArgumentException();
         }
+    }
+
+    public Allocation getAllocation(String driverName, String busRegistrationPlate, Long busLineNumber){
+        return allocationService.getAllocation(driverName, busRegistrationPlate, busLineNumber);
+    }
+
+    public String getAssignedShortInfo(String driverName){
+        return allocationService.getAssignedShortInfo(driverName);
     }
 
     public void modifyDriver(Driver driver){

@@ -1,6 +1,13 @@
 package org.io.mpk.model;
 
+import java.text.ParseException;
+import java.time.Duration;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.util.Date;
+import java.util.StringJoiner;
+
+import static java.time.temporal.ChronoUnit.DAYS;
 
 public class Employee {
 
@@ -69,5 +76,19 @@ public class Employee {
 
     public void setPesel(String pesel) {
         this.pesel = pesel;
+    }
+
+    //Get time worked based on hire_date
+
+    public long getDaysWorked(LocalDate dateToParse){
+        long daysBetweeen = DAYS.between(hireDate, dateToParse);
+        if(daysBetweeen < 0){
+            throw new IllegalArgumentException();
+        }else{
+            return daysBetweeen;
+        }
+    }
+    public String getFullNameOfEmployee(){
+        return "" + name + " " + surname;
     }
 }

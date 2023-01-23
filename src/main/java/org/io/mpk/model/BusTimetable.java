@@ -50,4 +50,10 @@ public class BusTimetable {
     public void setTime(LocalTime time) {
         this.time = time;
     }
+
+    public String getBusTimetableShortInfo(){
+        return "Bus line: " + busLine.getLineNumber()
+                + "\nBus stop: " + busStop.getBusStopName()
+                + "\nTime: " + time;
+    }
 }

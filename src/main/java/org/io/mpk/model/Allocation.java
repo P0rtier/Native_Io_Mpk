@@ -38,4 +38,11 @@ public class Allocation {
     public void setBus(Bus bus) {
         this.bus = bus;
     }
+
+    public String getShortAllocationInfo(){
+        return "Allocation:"
+                + "\nDriver: " + driver.getFullNameOfEmployee()
+                + "\nBus line number: " + busLine.getLineNumber()
+                + "\nBus plate: " + bus.getRegistrationPlate();
+    }
 }

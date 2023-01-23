@@ -18,6 +18,10 @@ public class EmployeeService {
         this.employeeDB = employeeDB;
     }
 
+    public List<Employee> getEmployeeDB() {
+        return employeeDB;
+    }
+
     public Driver getDriverById(Long driverId){
         return (Driver) employeeDB.stream()
                 .filter( t -> t instanceof Driver && t.getId().equals(driverId))
@@ -64,5 +68,10 @@ public class EmployeeService {
         driverToBeSaved.setPesel(driver.getPesel());
 
         employeeDB.add(index,driverToBeSaved);
+    }
+
+    public void addEmployee(Employee employee){
+        if(employee != null) employeeDB.add(employee);
+        else throw new IllegalArgumentException();
     }
 }

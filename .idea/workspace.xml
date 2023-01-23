@@ -5,13 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="def12250-704c-46da-a4a4-6dcd3c02cb4a" name="Changes" comment="[IO-1]: Minor changes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/util/ControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/util/Dane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/util/ModelFunctionalityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/io/mpk/controller/AdminControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/io/mpk/service/EmployeeServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/io/mpk/testSuites/EmployeeControllerTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/io/mpk/testSuites/EmployeeModelTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/io/mpk/testSuites/EmployeeTestSuite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/BusLineService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/BusLineService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/BusService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/BusService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/BusStopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/BusStopService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/BusTimetableService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/BusTimetableService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/io/mpk/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/io/mpk/model/Allocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/model/Allocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/io/mpk/model/BusTimetable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/model/BusTimetable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/io/mpk/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/AllocationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/AllocationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/EmployeeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +32,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="4c5a7812-ebae-4267-aad4-fc43ac27c839" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -44,21 +57,35 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/org/io/mpk/controller" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Lenovo\IdeaProjects\Native_Io_Mpk\src\main\java\org\io\mpk\controller" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.io.mpk.controller" />
+      <recent name="org.io.mpk.service" />
+      <recent name="org.io.mpk.model" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.MainController">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.io.mpk.controller.Main" />
+  <component name="RunManager" selected="JUnit.AdminControllerTestSuite">
+    <configuration name="AdminControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Native_Io_Mpk" />
       <extension name="coverage">
         <pattern>
@@ -66,41 +93,80 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.io.mpk.controller" />
+      <option name="MAIN_CLASS_NAME" value="org.io.mpk.controller.AdminControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.io.mpk.controller.MainController" />
+    <configuration name="AdminControllerTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Native_Io_Mpk" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.io.mpk.controller.*" />
+          <option name="PATTERN" value="org.io.mpk.testSuites.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.io.mpk.testSuites" />
+      <option name="MAIN_CLASS_NAME" value="org.io.mpk.testSuites.AdminControllerTestSuite" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.io.mpk.view.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.io.mpk.view.Main" />
+    <configuration name="EmployeeModelTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Native_Io_Mpk" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.io.mpk.view.*" />
+          <option name="PATTERN" value="org.io.mpk.testSuites.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.io.mpk.testSuites" />
+      <option name="MAIN_CLASS_NAME" value="org.io.mpk.testSuites.EmployeeModelTestSuite" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Native_Io_Mpk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.io.mpk.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.io.mpk.model" />
+      <option name="MAIN_CLASS_NAME" value="org.io.mpk.model.EmployeeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Native_Io_Mpk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.io.mpk.testSuites.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.io.mpk.testSuites" />
+      <option name="MAIN_CLASS_NAME" value="org.io.mpk.testSuites.EmployeeTestSuite" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainController" />
-        <item itemvalue="Application.org.io.mpk.view.Main" />
-        <item itemvalue="Application.org.io.mpk.view.Main" />
+        <item itemvalue="JUnit.AdminControllerTestSuite" />
+        <item itemvalue="JUnit.EmployeeTestSuite" />
+        <item itemvalue="JUnit.EmployeeModelTestSuite" />
+        <item itemvalue="JUnit.EmployeeTest" />
+        <item itemvalue="JUnit.AdminControllerTest" />
       </list>
     </recent_temporary>
   </component>
