@@ -34,7 +34,6 @@ public class AdminControllerTest {
     public ExpectedException expectedException = ExpectedException.none();
 
     static AdminController adminController;
-    static Dane dane;
 
     @Parameterized.Parameter(value = 0)
     public String testName;

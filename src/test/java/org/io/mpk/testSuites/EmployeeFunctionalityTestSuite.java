@@ -13,5 +13,5 @@ import org.junit.experimental.categories.Categories;
 })
 @RunWith(Categories.class)
 @Categories.IncludeCategory(ModelFunctionalityTest.class)
-public class EmployeeModelTestSuite {
+public class EmployeeFunctionalityTestSuite {
 }

@@ -13,7 +13,6 @@ import org.junit.runners.Parameterized;
 
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.List;
 import java.util.NoSuchElementException;
 
 import static org.junit.Assert.*;
@@ -24,7 +23,6 @@ import static org.junit.Assert.*;
 public class EmployeeServiceTest {
 
     static EmployeeService employeeService;
-    static Dane dane;
 
     @Rule
     public ExpectedException expectedException = ExpectedException.none();
@@ -40,6 +38,7 @@ public class EmployeeServiceTest {
         }};
         return Arrays.asList(data1);
     }
+
 
     @BeforeClass
     public static void setUp(){

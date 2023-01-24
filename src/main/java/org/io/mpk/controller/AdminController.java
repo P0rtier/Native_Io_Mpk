@@ -13,10 +13,29 @@ import java.util.NoSuchElementException;
 
 public class AdminController {
 
-    private final EmployeeService employeeService;
-    private final BusService busService;
-    private final BusLineService busLineService;
-    private final AllocationService allocationService;
+    private EmployeeService employeeService;
+    private BusService busService;
+    private BusLineService busLineService;
+    private AllocationService allocationService;
+
+    public AdminController() {
+    }
+
+    public void setEmployeeService(EmployeeService employeeService) {
+        this.employeeService = employeeService;
+    }
+
+    public void setBusService(BusService busService) {
+        this.busService = busService;
+    }
+
+    public void setBusLineService(BusLineService busLineService) {
+        this.busLineService = busLineService;
+    }
+
+    public void setAllocationService(AllocationService allocationService) {
+        this.allocationService = allocationService;
+    }
 
     public AdminController(EmployeeService employeeService, BusService busService, BusLineService busLineService, AllocationService allocationService) {
         this.employeeService = employeeService;
