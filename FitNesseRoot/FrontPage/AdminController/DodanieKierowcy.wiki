@@ -1,0 +1,15 @@
+---
+Test
+---
+!define TEST_SYSTEM {slim}
+
+!|org.io.mpk.testyfitnessefixture.addDriverTest|
+|id |name             |surname             |drivingLicenseId   |addDriver?|
+|1  |FitnesseName     |FitnesseSurname     |1                  |true      |
+|2  |FitnesseName2    |FitnesseSurname2    |2                  |true      |
+|3  |FitnesseName3    |FitnesseSurname3    |3                  |true      |
+|4  |FitnesseName4    |FitnesseSurname4    |4                  |true      |
+|   |FitnesseName5    |FitnesseSurname5    |5                  |false     |
+|6  |                 |FitnesseSurname6    |6                  |false     |
+|7  |FitnesseName7    |	                   |7                  |false     |
+|8  |FitnesseName8    |FitnesseSurname8    |                   |false     |

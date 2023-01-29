@@ -74,4 +74,14 @@ public class EmployeeService {
         if(employee != null) employeeDB.add(employee);
         else throw new IllegalArgumentException();
     }
+
+    public String getDriverShortInfo(String driverName) {
+        try {
+            Driver driver = getDriverByName(driverName);
+            return "ID: " + driver.getId() + ", Name: " + driverName + ", Surname: " + driver.getSurname();
+        }catch (NoSuchElementException e){
+            e.printStackTrace();
+        }
+        return "No such element!";
+    }
 }

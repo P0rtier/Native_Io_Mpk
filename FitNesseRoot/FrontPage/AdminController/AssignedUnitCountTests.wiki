@@ -1,0 +1,12 @@
+---
+Test
+---
+!include PrzypisanieKierowcy
+!define TEST_SYSTEM {slim}
+
+!|org.io.mpk.testyfitnessefixture.CountAssignementsTests|
+|driverName   |busRegistrationPlate|busLineNumber  |assignedDriverCountTest?|assignedBusCountTest? |assignedBusLineCountTest? |
+|testName1    |testPlate1          |1              |3                       |2                     |2                         |
+|testName2    |testPlate2          |2              |1                       |2                     |1                         |
+|testName3    |testPlate3          |3              |0                       |0                     |1                         |
+|notValidName |notValidPlate       |100            |0                       |0                     |0                         |

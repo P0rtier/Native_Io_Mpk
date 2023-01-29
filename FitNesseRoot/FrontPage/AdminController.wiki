@@ -1,0 +1,8 @@
+---
+Suite
+---
+!1 Zestaw testów ${PAGE_NAME}
+!contents -R2 -g -p -f -h
+
+"Testy akceptacyjne systemu zarządzania pracownikami MPK"
+!path C:\Users\Lenovo\IdeaProjects\Native_Io_Mpk\target\classes

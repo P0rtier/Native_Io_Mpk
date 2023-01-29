@@ -1,0 +1,3 @@
+!define TEST_SYSTEM {slim}
+
+!|org.io.mpk.testyfitnessefixture.SetUp|

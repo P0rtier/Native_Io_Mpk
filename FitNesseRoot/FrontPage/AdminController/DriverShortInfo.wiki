@@ -1,0 +1,16 @@
+---
+Test
+---
+!include DodanieKierowcy
+!define TEST_SYSTEM {slim}
+
+!|org.io.mpk.testyfitnessefixture.GetDriverShortInfoTest|
+|driverName           |getDriverShortInfoTest?                               |
+|FitnesseName         |ID: 1, Name: FitnesseName, Surname: FitnesseSurname   |
+|FitnesseName2        |ID: 2, Name: FitnesseName2, Surname: FitnesseSurname2 |
+|FitnesseName3        |ID: 3, Name: FitnesseName3, Surname: FitnesseSurname3 |
+|FitnesseName4        |ID: 4, Name: FitnesseName4, Surname: FitnesseSurname4 |
+|FitnesseName5        |No such element!                                      |
+|FitnesseName6        |No such element!                                      |
+|FitnesseName7        |No such element!                                      |
+|FitnesseName8        |No such element!                                      |

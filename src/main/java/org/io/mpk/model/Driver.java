@@ -17,6 +17,11 @@ public class Driver extends Employee{
         this.drivingLicenseCategory = drivingLicenseCategory;
     }
 
+    public Driver(Long id, String name, String surname, Long drivingLicenseId){
+        super(id,name,surname);
+        this.drivingLicenseId = drivingLicenseId;
+    }
+
     public Long getDrivingLicenseId() {
         return drivingLicenseId;
     }

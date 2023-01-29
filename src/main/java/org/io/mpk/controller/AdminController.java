@@ -60,6 +60,18 @@ public class AdminController {
         return employeeService.getDriverByDrivingLicenseId(drivingLicenseId);
     }
 
+    public boolean addDriver(Long id, String name, String surname, Long drivingLicenseId){
+        if(
+                id == null ||
+                name.isEmpty() ||
+                surname.isEmpty() ||
+                drivingLicenseId == null)
+            return false;
+        Driver driverToBeAdded = new Driver(id,name,surname,drivingLicenseId);
+        employeeService.addEmployee(driverToBeAdded);
+        return true;
+    }
+
     public Bus getBusById(Long busId){
         return busService.getBusById(busId);
     }
@@ -101,12 +113,28 @@ public class AdminController {
             allocationService.saveAllocation(allocation);
             return true;
         }else{
-            throw new IllegalArgumentException();
+            return false;
         }
+    }
+
+    public Long checkAssignedBusCount(String busRegistrationPlate){
+        return allocationService.countBusAssignements(busRegistrationPlate);
+    }
+
+    public Long checkAssignedDriverCount(String driverName){
+        return allocationService.countDriverAssignements(driverName);
+    }
+
+    public Long checkAssignedBusLineCount(Long busLine){
+        return allocationService.getBusLineOccupancy(busLine);
     }
 
     public Allocation getAllocation(String driverName, String busRegistrationPlate, Long busLineNumber){
         return allocationService.getAllocation(driverName, busRegistrationPlate, busLineNumber);
+    }
+
+    public String getDriverShortInfo(String driverName){
+        return employeeService.getDriverShortInfo(driverName);
     }
 
     public String getAssignedShortInfo(String driverName){

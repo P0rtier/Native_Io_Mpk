@@ -23,7 +23,7 @@ public class Dane {
     public static LocalDate testDate = LocalDate.MAX;
     public static List<Long> testLicenseIds = List.of(1L,2L,3L,4L,5L);
     public static String testDrivingCategory = "testCategory";
-    public static List<Employee> testDrivers = List.of(
+    public static List<Employee> testDrivers = new ArrayList<>(List.of(
             new Driver(testId, testNames.get(0), testSurname,
                     testDate, testDate, testPesel,
                     testLicenseIds.get(0), testDrivingCategory),
@@ -39,7 +39,7 @@ public class Dane {
             new Driver(testId, testNames.get(4), testSurname,
                     testDate, testDate, testPesel,
                     testLicenseIds.get(4), testDrivingCategory)
-    );
+    ));
 
     private Long id;
     private LocalDateTime technicalReview;

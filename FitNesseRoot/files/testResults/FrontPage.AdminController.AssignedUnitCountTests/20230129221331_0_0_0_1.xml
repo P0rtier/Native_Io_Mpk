@@ -1,0 +1,935 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20190716</FitNesseVersion>
+  <rootPath>FrontPage.AdminController.AssignedUnitCountTests</rootPath>
+  <result>
+    <counts>
+      <right>10</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>3</exceptions>
+    </counts>
+    <date>2023-01-29T22:13:32+01:00</date>
+    <runTimeInMillis>674</runTimeInMillis>
+    <content>&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FrontPage.AdminController.SetUp"&gt;.FrontPage.AdminController.SetUp&lt;/a&gt; &lt;a href="FrontPage.AdminController.SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;org.io.mpk.testyfitnessefixture.SetUp&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FrontPage.AdminController.PrzypisanieKierowcy"&gt;PrzypisanieKierowcy&lt;/a&gt; &lt;a href="FrontPage.AdminController.PrzypisanieKierowcy?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td colspan="4"&gt;&lt;span class="pass"&gt;org.io.mpk.testyfitnessefixture.AssignDriverTest&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;driverName&lt;/td&gt;
+		&lt;td&gt;busRegistrationPlate&lt;/td&gt;
+		&lt;td&gt;busLineNumber&lt;/td&gt;
+		&lt;td&gt;assignDriverTest?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;testName1&lt;/td&gt;
+		&lt;td&gt;testPlate1&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;true&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;testName2&lt;/td&gt;
+		&lt;td&gt;testPlate2&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;true&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;testName3&lt;/td&gt;
+		&lt;td&gt;testPlate3&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;false&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;testName1&lt;/td&gt;
+		&lt;td&gt;testPlate2&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;true&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;testName1&lt;/td&gt;
+		&lt;td&gt;testPlate1&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;false&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;testName1&lt;/td&gt;
+		&lt;td&gt;testPlate2&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;false&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;testName3&lt;/td&gt;
+		&lt;td&gt;testPlate1&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;false&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;wrongName&lt;/td&gt;
+		&lt;td&gt;testPlate2&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;/java.util.NoSuchElementException/ found in: __EXCEPTION__:java.util.NoSuchElementException
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) [rt.jar]
+	at org.io.mpk.service.EmployeeService.getDriverByName(EmployeeService.java:36) [file:/C:/Users/Lenovo/IdeaProjects/Native_Io_Mpk/target/classes/]
+	at org.io.mpk.controller.AdminController.assignDriver(AdminController.java:107) [file:/C:/Users/Lenovo/IdeaProjects/Native_Io_Mpk/target/classes/]
+	at org.io.mpk.testyfitnessefixture.AssignDriverTest.assignDriverTest(AssignDriverTest.java:37) [file:/C:/Users/Lenovo/IdeaProjects/Native_Io_Mpk/target/classes/]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [n/a]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) [n/a]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [n/a]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) [rt.jar]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.methodInvoke(SimpleInteraction.java:256) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.callMethod(SimpleInteraction.java:241) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.invokeMethod(SimpleInteraction.java:223) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:185) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-20190716.jar:20190716]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;testName1&lt;/td&gt;
+		&lt;td&gt;wrongPlate&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;/java.util.NoSuchElementException/ found in: __EXCEPTION__:java.util.NoSuchElementException
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) [rt.jar]
+	at org.io.mpk.service.BusService.getBusByRegistrationPlate(BusService.java:33) [file:/C:/Users/Lenovo/IdeaProjects/Native_Io_Mpk/target/classes/]
+	at org.io.mpk.controller.AdminController.assignDriver(AdminController.java:108) [file:/C:/Users/Lenovo/IdeaProjects/Native_Io_Mpk/target/classes/]
+	at org.io.mpk.testyfitnessefixture.AssignDriverTest.assignDriverTest(AssignDriverTest.java:37) [file:/C:/Users/Lenovo/IdeaProjects/Native_Io_Mpk/target/classes/]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [n/a]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) [n/a]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [n/a]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) [rt.jar]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.methodInvoke(SimpleInteraction.java:256) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.callMethod(SimpleInteraction.java:241) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.invokeMethod(SimpleInteraction.java:223) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:185) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-20190716.jar:20190716]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;testName1&lt;/td&gt;
+		&lt;td&gt;testPlate2&lt;/td&gt;
+		&lt;td&gt;100&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;/java.util.NoSuchElementException/ found in: __EXCEPTION__:java.util.NoSuchElementException
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) [rt.jar]
+	at org.io.mpk.service.BusLineService.getBusLineByLineNumber(BusLineService.java:25) [file:/C:/Users/Lenovo/IdeaProjects/Native_Io_Mpk/target/classes/]
+	at org.io.mpk.controller.AdminController.assignDriver(AdminController.java:109) [file:/C:/Users/Lenovo/IdeaProjects/Native_Io_Mpk/target/classes/]
+	at org.io.mpk.testyfitnessefixture.AssignDriverTest.assignDriverTest(AssignDriverTest.java:37) [file:/C:/Users/Lenovo/IdeaProjects/Native_Io_Mpk/target/classes/]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [n/a]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) [n/a]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [n/a]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) [rt.jar]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.methodInvoke(SimpleInteraction.java:256) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.callMethod(SimpleInteraction.java:241) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.invokeMethod(SimpleInteraction.java:223) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:185) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-20190716.jar:20190716]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td colspan="7"&gt;&lt;span class="pass"&gt;org.io.mpk.testyfitnessefixture.AssignDriverTest&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;driverName&lt;/td&gt;
+		&lt;td&gt;busRegistrationPlate&lt;/td&gt;
+		&lt;td&gt;busLineNumber&lt;/td&gt;
+		&lt;td&gt;assignedDriverCountTest?&lt;/td&gt;
+		&lt;td&gt;assignedBusCountTest?&lt;/td&gt;
+		&lt;td colspan="2"&gt;assignedBusLineCountTest&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;testName1&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt; &lt;span class="error"&gt;Method assignedDriverCountTest[0] not found in org.io.mpk.testyfitnessefixture.AssignDriverTest.&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;2 &lt;span class="error"&gt;Method assignedBusCountTest[0] not found in org.io.mpk.testyfitnessefixture.AssignDriverTest.&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt; &lt;span class="error"&gt;Method setAssignedBusLineCountTest[1] not found in org.io.mpk.testyfitnessefixture.AssignDriverTest.&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>AssignedUnitCountTests</relativePageName>
+    <instructions>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_0', instruction='make', instanceName='decisionTable_0', className='org.io.mpk.testyfitnessefixture.SetUp', args=[]}</instruction>
+        <slimResult>pass(org.io.mpk.testyfitnessefixture.SetUp)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_0_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>org.io.mpk.testyfitnessefixture.SetUp</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_0', instruction='make', instanceName='decisionTable_1', className='org.io.mpk.testyfitnessefixture.AssignDriverTest', args=[]}</instruction>
+        <slimResult>pass(org.io.mpk.testyfitnessefixture.AssignDriverTest)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_1_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>org.io.mpk.testyfitnessefixture.AssignDriverTest</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_4', instruction='call', instanceName='decisionTable_1', methodName='setDriverName', args=[testName1]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_1_4</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_5', instruction='call', instanceName='decisionTable_1', methodName='setBusRegistrationPlate', args=[testPlate1]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_1_5</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_6', instruction='call', instanceName='decisionTable_1', methodName='setBusLineNumber', args=[1]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_1_6</instructionId>
+          <col>2</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_8', instruction='call', instanceName='decisionTable_1', methodName='assignDriverTest', args=[]}</instruction>
+        <slimResult>pass(true)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_1_8</instructionId>
+          <col>3</col>
+          <row>2</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>true</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_10', instruction='call', instanceName='decisionTable_1', methodName='setDriverName', args=[testName2]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_1_10</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_11', instruction='call', instanceName='decisionTable_1', methodName='setBusRegistrationPlate', args=[testPlate2]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_1_11</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_12', instruction='call', instanceName='decisionTable_1', methodName='setBusLineNumber', args=[1]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_1_12</instructionId>
+          <col>2</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_14', instruction='call', instanceName='decisionTable_1', methodName='assignDriverTest', args=[]}</instruction>
+        <slimResult>pass(true)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_1_14</instructionId>
+          <col>3</col>
+          <row>3</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>true</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_16', instruction='call', instanceName='decisionTable_1', methodName='setDriverName', args=[testName3]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_1_16</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_17', instruction='call', instanceName='decisionTable_1', methodName='setBusRegistrationPlate', args=[testPlate3]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_1_17</instructionId>
+          <col>1</col>
+          <row>4</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_18', instruction='call', instanceName='decisionTable_1', methodName='setBusLineNumber', args=[1]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_1_18</instructionId>
+          <col>2</col>
+          <row>4</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_20', instruction='call', instanceName='decisionTable_1', methodName='assignDriverTest', args=[]}</instruction>
+        <slimResult>pass(false)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_1_20</instructionId>
+          <col>3</col>
+          <row>4</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>false</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_22', instruction='call', instanceName='decisionTable_1', methodName='setDriverName', args=[testName1]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_1_22</instructionId>
+          <col>0</col>
+          <row>5</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_23', instruction='call', instanceName='decisionTable_1', methodName='setBusRegistrationPlate', args=[testPlate2]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_1_23</instructionId>
+          <col>1</col>
+          <row>5</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_24', instruction='call', instanceName='decisionTable_1', methodName='setBusLineNumber', args=[2]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_1_24</instructionId>
+          <col>2</col>
+          <row>5</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_26', instruction='call', instanceName='decisionTable_1', methodName='assignDriverTest', args=[]}</instruction>
+        <slimResult>pass(true)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_1_26</instructionId>
+          <col>3</col>
+          <row>5</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>true</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_28', instruction='call', instanceName='decisionTable_1', methodName='setDriverName', args=[testName1]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_1_28</instructionId>
+          <col>0</col>
+          <row>6</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_29', instruction='call', instanceName='decisionTable_1', methodName='setBusRegistrationPlate', args=[testPlate1]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_1_29</instructionId>
+          <col>1</col>
+          <row>6</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_30', instruction='call', instanceName='decisionTable_1', methodName='setBusLineNumber', args=[3]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_1_30</instructionId>
+          <col>2</col>
+          <row>6</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_32', instruction='call', instanceName='decisionTable_1', methodName='assignDriverTest', args=[]}</instruction>
+        <slimResult>pass(false)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_1_32</instructionId>
+          <col>3</col>
+          <row>6</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>false</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_34', instruction='call', instanceName='decisionTable_1', methodName='setDriverName', args=[testName1]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_1_34</instructionId>
+          <col>0</col>
+          <row>7</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_35', instruction='call', instanceName='decisionTable_1', methodName='setBusRegistrationPlate', args=[testPlate2]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_1_35</instructionId>
+          <col>1</col>
+          <row>7</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_36', instruction='call', instanceName='decisionTable_1', methodName='setBusLineNumber', args=[3]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_1_36</instructionId>
+          <col>2</col>
+          <row>7</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_38', instruction='call', instanceName='decisionTable_1', methodName='assignDriverTest', args=[]}</instruction>
+        <slimResult>pass(false)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_1_38</instructionId>
+          <col>3</col>
+          <row>7</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>false</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_40', instruction='call', instanceName='decisionTable_1', methodName='setDriverName', args=[testName3]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_1_40</instructionId>
+          <col>0</col>
+          <row>8</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_41', instruction='call', instanceName='decisionTable_1', methodName='setBusRegistrationPlate', args=[testPlate1]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_1_41</instructionId>
+          <col>1</col>
+          <row>8</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_42', instruction='call', instanceName='decisionTable_1', methodName='setBusLineNumber', args=[3]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_1_42</instructionId>
+          <col>2</col>
+          <row>8</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_44', instruction='call', instanceName='decisionTable_1', methodName='assignDriverTest', args=[]}</instruction>
+        <slimResult>pass(false)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_1_44</instructionId>
+          <col>3</col>
+          <row>8</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>false</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_46', instruction='call', instanceName='decisionTable_1', methodName='setDriverName', args=[wrongName]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_1_46</instructionId>
+          <col>0</col>
+          <row>9</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_47', instruction='call', instanceName='decisionTable_1', methodName='setBusRegistrationPlate', args=[testPlate2]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_1_47</instructionId>
+          <col>1</col>
+          <row>9</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_48', instruction='call', instanceName='decisionTable_1', methodName='setBusLineNumber', args=[1]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_1_48</instructionId>
+          <col>2</col>
+          <row>9</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_50', instruction='call', instanceName='decisionTable_1', methodName='assignDriverTest', args=[]}</instruction>
+        <slimResult>pass(/java.util.NoSuchElementException/ found in: __EXCEPTION__:java.util.NoSuchElementException
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) [rt.jar]
+	at org.io.mpk.service.EmployeeService.getDriverByName(EmployeeService.java:36) [file:/C:/Users/Lenovo/IdeaProjects/Native_Io_Mpk/target/classes/]
+	at org.io.mpk.controller.AdminController.assignDriver(AdminController.java:107) [file:/C:/Users/Lenovo/IdeaProjects/Native_Io_Mpk/target/classes/]
+	at org.io.mpk.testyfitnessefixture.AssignDriverTest.assignDriverTest(AssignDriverTest.java:37) [file:/C:/Users/Lenovo/IdeaProjects/Native_Io_Mpk/target/classes/]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [n/a]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) [n/a]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [n/a]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) [rt.jar]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.methodInvoke(SimpleInteraction.java:256) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.callMethod(SimpleInteraction.java:241) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.invokeMethod(SimpleInteraction.java:223) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:185) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-20190716.jar:20190716])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_1_50</instructionId>
+          <col>3</col>
+          <row>9</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>/java.util.NoSuchElementException/ found in: __EXCEPTION__:java.util.NoSuchElementException
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) [rt.jar]
+	at org.io.mpk.service.EmployeeService.getDriverByName(EmployeeService.java:36) [file:/C:/Users/Lenovo/IdeaProjects/Native_Io_Mpk/target/classes/]
+	at org.io.mpk.controller.AdminController.assignDriver(AdminController.java:107) [file:/C:/Users/Lenovo/IdeaProjects/Native_Io_Mpk/target/classes/]
+	at org.io.mpk.testyfitnessefixture.AssignDriverTest.assignDriverTest(AssignDriverTest.java:37) [file:/C:/Users/Lenovo/IdeaProjects/Native_Io_Mpk/target/classes/]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [n/a]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) [n/a]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [n/a]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) [rt.jar]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.methodInvoke(SimpleInteraction.java:256) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.callMethod(SimpleInteraction.java:241) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.invokeMethod(SimpleInteraction.java:223) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:185) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-20190716.jar:20190716]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_52', instruction='call', instanceName='decisionTable_1', methodName='setDriverName', args=[testName1]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_1_52</instructionId>
+          <col>0</col>
+          <row>10</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_53', instruction='call', instanceName='decisionTable_1', methodName='setBusRegistrationPlate', args=[wrongPlate]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_1_53</instructionId>
+          <col>1</col>
+          <row>10</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_54', instruction='call', instanceName='decisionTable_1', methodName='setBusLineNumber', args=[1]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_1_54</instructionId>
+          <col>2</col>
+          <row>10</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_56', instruction='call', instanceName='decisionTable_1', methodName='assignDriverTest', args=[]}</instruction>
+        <slimResult>pass(/java.util.NoSuchElementException/ found in: __EXCEPTION__:java.util.NoSuchElementException
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) [rt.jar]
+	at org.io.mpk.service.BusService.getBusByRegistrationPlate(BusService.java:33) [file:/C:/Users/Lenovo/IdeaProjects/Native_Io_Mpk/target/classes/]
+	at org.io.mpk.controller.AdminController.assignDriver(AdminController.java:108) [file:/C:/Users/Lenovo/IdeaProjects/Native_Io_Mpk/target/classes/]
+	at org.io.mpk.testyfitnessefixture.AssignDriverTest.assignDriverTest(AssignDriverTest.java:37) [file:/C:/Users/Lenovo/IdeaProjects/Native_Io_Mpk/target/classes/]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [n/a]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) [n/a]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [n/a]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) [rt.jar]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.methodInvoke(SimpleInteraction.java:256) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.callMethod(SimpleInteraction.java:241) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.invokeMethod(SimpleInteraction.java:223) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:185) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-20190716.jar:20190716])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_1_56</instructionId>
+          <col>3</col>
+          <row>10</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>/java.util.NoSuchElementException/ found in: __EXCEPTION__:java.util.NoSuchElementException
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) [rt.jar]
+	at org.io.mpk.service.BusService.getBusByRegistrationPlate(BusService.java:33) [file:/C:/Users/Lenovo/IdeaProjects/Native_Io_Mpk/target/classes/]
+	at org.io.mpk.controller.AdminController.assignDriver(AdminController.java:108) [file:/C:/Users/Lenovo/IdeaProjects/Native_Io_Mpk/target/classes/]
+	at org.io.mpk.testyfitnessefixture.AssignDriverTest.assignDriverTest(AssignDriverTest.java:37) [file:/C:/Users/Lenovo/IdeaProjects/Native_Io_Mpk/target/classes/]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [n/a]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) [n/a]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [n/a]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) [rt.jar]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.methodInvoke(SimpleInteraction.java:256) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.callMethod(SimpleInteraction.java:241) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.invokeMethod(SimpleInteraction.java:223) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:185) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-20190716.jar:20190716]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_58', instruction='call', instanceName='decisionTable_1', methodName='setDriverName', args=[testName1]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_1_58</instructionId>
+          <col>0</col>
+          <row>11</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_59', instruction='call', instanceName='decisionTable_1', methodName='setBusRegistrationPlate', args=[testPlate2]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_1_59</instructionId>
+          <col>1</col>
+          <row>11</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_60', instruction='call', instanceName='decisionTable_1', methodName='setBusLineNumber', args=[100]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_1_60</instructionId>
+          <col>2</col>
+          <row>11</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_62', instruction='call', instanceName='decisionTable_1', methodName='assignDriverTest', args=[]}</instruction>
+        <slimResult>pass(/java.util.NoSuchElementException/ found in: __EXCEPTION__:java.util.NoSuchElementException
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) [rt.jar]
+	at org.io.mpk.service.BusLineService.getBusLineByLineNumber(BusLineService.java:25) [file:/C:/Users/Lenovo/IdeaProjects/Native_Io_Mpk/target/classes/]
+	at org.io.mpk.controller.AdminController.assignDriver(AdminController.java:109) [file:/C:/Users/Lenovo/IdeaProjects/Native_Io_Mpk/target/classes/]
+	at org.io.mpk.testyfitnessefixture.AssignDriverTest.assignDriverTest(AssignDriverTest.java:37) [file:/C:/Users/Lenovo/IdeaProjects/Native_Io_Mpk/target/classes/]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [n/a]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) [n/a]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [n/a]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) [rt.jar]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.methodInvoke(SimpleInteraction.java:256) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.callMethod(SimpleInteraction.java:241) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.invokeMethod(SimpleInteraction.java:223) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:185) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-20190716.jar:20190716])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_1_62</instructionId>
+          <col>3</col>
+          <row>11</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>/java.util.NoSuchElementException/ found in: __EXCEPTION__:java.util.NoSuchElementException
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) [rt.jar]
+	at org.io.mpk.service.BusLineService.getBusLineByLineNumber(BusLineService.java:25) [file:/C:/Users/Lenovo/IdeaProjects/Native_Io_Mpk/target/classes/]
+	at org.io.mpk.controller.AdminController.assignDriver(AdminController.java:109) [file:/C:/Users/Lenovo/IdeaProjects/Native_Io_Mpk/target/classes/]
+	at org.io.mpk.testyfitnessefixture.AssignDriverTest.assignDriverTest(AssignDriverTest.java:37) [file:/C:/Users/Lenovo/IdeaProjects/Native_Io_Mpk/target/classes/]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [n/a]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) [n/a]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [n/a]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) [rt.jar]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.methodInvoke(SimpleInteraction.java:256) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.callMethod(SimpleInteraction.java:241) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.invokeMethod(SimpleInteraction.java:223) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:185) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-20190716.jar:20190716]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-20190716.jar:20190716]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_2_0', instruction='make', instanceName='decisionTable_2', className='org.io.mpk.testyfitnessefixture.AssignDriverTest', args=[]}</instruction>
+        <slimResult>pass(org.io.mpk.testyfitnessefixture.AssignDriverTest)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_2_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>org.io.mpk.testyfitnessefixture.AssignDriverTest</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_2_4', instruction='call', instanceName='decisionTable_2', methodName='setDriverName', args=[testName1]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_2_4</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_2_5', instruction='call', instanceName='decisionTable_2', methodName='setBusRegistrationPlate', args=[]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_2_5</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_2_6', instruction='call', instanceName='decisionTable_2', methodName='setBusLineNumber', args=[]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_2_6</instructionId>
+          <col>2</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_2_7', instruction='call', instanceName='decisionTable_2', methodName='setAssignedBusLineCountTest', args=[]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_2_7</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>Method setAssignedBusLineCountTest[1] not found in org.io.mpk.testyfitnessefixture.AssignDriverTest.</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_2_9', instruction='call', instanceName='decisionTable_2', methodName='assignedDriverCountTest', args=[]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_2_9</instructionId>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>Method assignedDriverCountTest[0] not found in org.io.mpk.testyfitnessefixture.AssignDriverTest.</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_2_10', instruction='call', instanceName='decisionTable_2', methodName='assignedBusCountTest', args=[]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_2_10</instructionId>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>Method assignedBusCountTest[0] not found in org.io.mpk.testyfitnessefixture.AssignDriverTest.</evaluationMessage>
+        </expectation>
+      </instructionResult>
+    </instructions>
+  </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>java -cp C:\Users\Lenovo\.m2\repository\org\fitnesse\fitnesse\20190716\fitnesse-20190716.jar;C:\Users\Lenovo\IdeaProjects\Native_Io_Mpk\target\classes fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut>WARNING: A terminally deprecated method in java.lang.System has been called
+WARNING: System::setSecurityManager has been called by fitnesse.slim.instructions.SystemExitSecurityManager (file:/C:/Users/Lenovo/.m2/repository/org/fitnesse/fitnesse/20190716/fitnesse-20190716.jar)
+WARNING: Please consider reporting this to the maintainers of fitnesse.slim.instructions.SystemExitSecurityManager
+WARNING: System::setSecurityManager will be removed in a future release
+</stdOut>
+    <stdErr>Slim  Map converter not loaded: could not find class org/htmlparser/NodeFilter
+
+</stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>1326</totalRunTimeInMillis>
+</testResults>
+

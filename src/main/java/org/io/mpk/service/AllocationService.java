@@ -44,4 +44,16 @@ public class AllocationService {
                 .findFirst()
                 .orElseThrow(NoSuchElementException::new);
     }
+
+    public Long countBusAssignements(String busRegistrationPlate) {
+        return allocationDB.stream()
+                .filter(t -> t.getBus().getRegistrationPlate().equals(busRegistrationPlate))
+                .count();
+    }
+
+    public Long countDriverAssignements(String driverName) {
+        return allocationDB.stream()
+                .filter(t -> t.getDriver().getName().equals(driverName))
+                .count();
+    }
 }

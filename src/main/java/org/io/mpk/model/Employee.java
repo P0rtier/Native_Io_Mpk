@@ -30,6 +30,12 @@ public class Employee {
         this.pesel = pesel;
     }
 
+    public Employee(Long id, String name, String surname) {
+        this.id = id;
+        this.name = name;
+        this.surname = surname;
+    }
+
     public Long getId() {
         return id;
     }

@@ -1,0 +1,17 @@
+---
+Test
+---
+!define TEST_SYSTEM {slim}
+
+!|org.io.mpk.testyfitnessefixture.AssignDriverTest|
+|driverName    |busRegistrationPlate |busLineNumber   |assignDriverTest?                                         |
+|testName1     |testPlate1           |1               |true                                                      |
+|testName2     |testPlate2           |1               |true                                                      |
+|testName3     |testPlate3           |1               |false                                                     |
+|testName1     |testPlate2           |2               |true                                                      |
+|testName1     |testPlate1           |3               |false                                                     |
+|testName1     |testPlate2           |3               |false                                                     |
+|testName3     |testPlate1           |3               |false                                             		 |
+|wrongName     |testPlate2           |1               |EXCEPTION:=~/java.util.NoSuchElementException/            |
+|testName1     |wrongPlate           |1               |EXCEPTION:=~/java.util.NoSuchElementException/            |
+|testName1     |testPlate2           |100             |EXCEPTION:=~/java.util.NoSuchElementException/            |

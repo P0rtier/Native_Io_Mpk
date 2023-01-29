@@ -5,13 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="def12250-704c-46da-a4a4-6dcd3c02cb4a" name="Changes" comment="[IO-1]: Minor changes">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/io/mpk/mockTests/AdminControllerMockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/testyfitnessefixture/AssignDriverTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/testyfitnessefixture/CountAssignementsTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/testyfitnessefixture/GetDriverShortInfoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/testyfitnessefixture/SetUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/testyfitnessefixture/addDriverTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/io/mpk/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/io/mpk/controller/AdminControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/io/mpk/controller/AdminControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/io/mpk/service/EmployeeServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/io/mpk/service/EmployeeServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/io/mpk/testSuites/EmployeeModelTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/io/mpk/testSuites/EmployeeFunctionalityTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/io/mpk/testSuites/EmployeeTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/io/mpk/testSuites/FullOutlineTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/io/mpk/model/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/model/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/io/mpk/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/AllocationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/AllocationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/io/mpk/util/Dane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/io/mpk/util/Dane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/io/mpk/controller/AdminControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/io/mpk/mockTests/AdminControllerMockTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/io/mpk/model/EmployeeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/io/mpk/service/EmployeeServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/io/mpk/testSuites/AdminControllerTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/io/mpk/testSuites/EmployeeFunctionalityTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/io/mpk/testSuites/FullOutlineTestSuite.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +48,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="no-junit-in-pom" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,12 +72,13 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="true" />
-    <property name="Repository.Attach.Sources" value="true" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/org/io/mpk/controller" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/fitnesse/fitnesse/20190716/fitnesse-20190716.jar" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -81,7 +97,20 @@
       <recent name="org.io.mpk.model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FullOutlineTestSuite">
+  <component name="RunManager" selected="Application.MainController">
+    <configuration name="MainController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.io.mpk.controller.MainController" />
+      <module name="Native_Io_Mpk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.io.mpk.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AdminControllerMockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Native_Io_Mpk" />
       <extension name="coverage">
@@ -97,50 +126,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdminControllerMockTest.test2CheckIsBusLineOccupiedShouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AdminControllerTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Native_Io_Mpk" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.io.mpk.mockTests.*" />
+          <option name="PATTERN" value="org.io.mpk.testSuites.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.io.mpk.mockTests" />
-      <option name="MAIN_CLASS_NAME" value="org.io.mpk.mockTests.AdminControllerMockTest" />
-      <option name="METHOD_NAME" value="test2CheckIsBusLineOccupiedShouldReturnTrue" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="org.io.mpk.testSuites" />
+      <option name="MAIN_CLASS_NAME" value="org.io.mpk.testSuites.AdminControllerTestSuite" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdminControllerMockTest.test3AssignDriverShouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in Native_Io_Mpk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Native_Io_Mpk" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.io.mpk.mockTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.io.mpk.mockTests" />
-      <option name="MAIN_CLASS_NAME" value="org.io.mpk.mockTests.AdminControllerMockTest" />
-      <option name="METHOD_NAME" value="test3AssignDriverShouldReturnTrue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AdminControllerMockTest.test4AssignDriverShouldThrowIllegalArgumentException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Native_Io_Mpk" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.io.mpk.mockTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.io.mpk.mockTests" />
-      <option name="MAIN_CLASS_NAME" value="org.io.mpk.mockTests.AdminControllerMockTest" />
-      <option name="METHOD_NAME" value="test4AssignDriverShouldThrowIllegalArgumentException" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -160,13 +164,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="fitnesse-run" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="-Pfitnesse" />
+                <option value="test" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.AdminControllerMockTest" />
+      <item itemvalue="JUnit.AdminControllerTestSuite" />
+      <item itemvalue="JUnit.FullOutlineTestSuite" />
+      <item itemvalue="JUnit.All in Native_Io_Mpk" />
+      <item itemvalue="Maven.fitnesse-run" />
+      <item itemvalue="Application.MainController" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainController" />
         <item itemvalue="JUnit.FullOutlineTestSuite" />
+        <item itemvalue="JUnit.AdminControllerTestSuite" />
+        <item itemvalue="JUnit.All in Native_Io_Mpk" />
         <item itemvalue="JUnit.AdminControllerMockTest" />
-        <item itemvalue="JUnit.AdminControllerMockTest.test2CheckIsBusLineOccupiedShouldReturnTrue" />
-        <item itemvalue="JUnit.AdminControllerMockTest.test4AssignDriverShouldThrowIllegalArgumentException" />
-        <item itemvalue="JUnit.AdminControllerMockTest.test3AssignDriverShouldReturnTrue" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +274,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="no-junit-in-pom" />
+                        <option value="origin/no-junit-in-pom" />
                       </list>
                     </value>
                   </entry>
@@ -252,6 +290,11 @@
         <entry key="Branch">
           <value>
             <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/no-junit-in-pom" />
+                </option>
+              </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
                   <option value="no-junit-in-pom" />
